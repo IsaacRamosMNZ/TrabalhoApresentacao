@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Wireframe Melhorado</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Logo da Empresa</h1>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./sobre.html">Sobre</a></li>
+                    <li><a href="./mockup.html">Mockup</a></li>
+                    <li><a href="./contatos.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+<body>
+    <div class="banner">
+        <img src="./Mockup_1.webp" alt="banner image">
+    </div>
+</body>
+       
+    </section>
+
+    <section id="conteudo">
+        <div class="container">
+            <article>
+                <h2>Título do Artigo 1</h2>
+                <p>Texto do artigo...</p>
+            </article>
+            <article>
+                <h2>Título do Artigo 2</h2>
+                <p>Texto do artigo...</p>
+            </article>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Grupo 2 - © 2024</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+<style>
+    /* Reset básico e estilos gerais */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* centraliza o conteúdo */
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Estilos para a seção do banner */
+#banner {
+    background-color: #007bff00;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+    
+}
+
+#banner h2 {
+    font-size: 36px;
+}
+
+/* Estilos para a seção de conteúdo */
+#conteudo {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+#conteudo article {
+    flex-basis: calc(50% - 20px);
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#conteudo article h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#conteudo article p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #3333330c;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    header {
+        padding: 10px 0;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    header nav ul li {
+        margin-right: 20px;
+    }
+
+    header nav ul li a {
+        font-size: 14px;
+    }
+
+    #banner {
+        padding: 60px 0;
+    }
+
+    #banner h2 {
+        font-size: 28px;
+    }
+
+    #conteudo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #conteudo article {
+        flex-basis: 100%;
+        margin-bottom: 10px;
+    }
+}
+body {
+    margin: 110;
+    font-family: Arial, sans-serif;
+}
+
+.banner {
+    width: 15%; /* Garante que o banner ocupe toda a largura disponível */
+    max-width: 15%; /* Faz com que a imagem não ultrapasse a largura do seu contêiner */
+    overflow: hidden; /* Evita que partes da imagem fora do contêiner sejam visíveis */
+    position: relative; /* Permite posicionar elementos filhos relativamente */
+}
+
+.banner img {
+    display: block; /* Torna a imagem um elemento de bloco, ocupando toda a largura do contêiner */
+    width: 15%; /* Faz a imagem ocupar toda a largura do contêiner pai */
+    height: 15%; /* Mantém a proporção da imagem */
+}
+
+/* Estilos adicionais opcionais */
+.banner {
+    padding: 20px; /* Adiciona um espaçamento interno ao redor da imagem */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve para destacar o banner */
+    background-color: #f0f0f0; /* Cor de fundo do banner, opcional */
+}
+
+</style>
